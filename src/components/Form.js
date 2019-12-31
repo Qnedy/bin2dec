@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import './Form.css';
+
 import Button from './Button';
+
 
 export default function Formulario(){
     let [numBin, setNumbin] = useState(0);
@@ -39,7 +42,7 @@ export default function Formulario(){
                 <label key="decimal">
                     <span>Decimal: </span>
                     <input type="number" name="dec" value={numDec} onChange={e => setNumdec(e.target.value)} />
-                </label>
+                </label><br />
                 <Button />
             </fieldset>
         </form>
