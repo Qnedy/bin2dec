@@ -4,7 +4,7 @@ Ideia desse repositório: [App-ideas](https://github.com/florinpop17/app-ideas/b
 
 Demo: em breve...
 
-**OBS:** não quis usar toString(2) pra converter direto. Implementei a lógica da conversão.
+**OBS:** não quis usar toString pra converter direto. Implementei a lógica da conversão.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
